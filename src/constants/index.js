@@ -172,6 +172,13 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: python,
+        theme: 'btn-back-green',
+        name: 'Python to-do list',
+        description: 'A simple to-do list using python',
+        link: 'https://github.com/SiphesihleMazibuko/Python-To-do-list',
+    },
+    {
         iconUrl: thrivementor,
         theme: 'btn-back-red',
         name: 'ThriveMentor',
