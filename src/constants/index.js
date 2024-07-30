@@ -16,6 +16,8 @@ import {
     ecotracker,
     typescript,
     firebase,
+    mongodb,
+    nextjs,
 } from "../assets/icons";
 
 export const skills = [
@@ -23,6 +25,11 @@ export const skills = [
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
+    },
+    {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
     },
     {
         imageUrl: python,
@@ -63,6 +70,11 @@ export const skills = [
         imageUrl: nodejs,
         name: "Node.js",
         type: "Backend",
+    },
+    {
+        imageUrl: nextjs,
+        name: "Nextjs",
+        type: "Frontend",
     },
     {
         imageUrl: react,
