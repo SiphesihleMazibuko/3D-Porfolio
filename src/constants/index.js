@@ -1,4 +1,4 @@
-import {  uj } from "../assets/images";
+import {  uj, rosebank } from "../assets/images";
 import {
     python,
     contact,
@@ -95,6 +95,28 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Support Service Administrator Tutorial",
+        company_name: "Rosebank College",
+        icon: rosebank,
+        iconBg: "#accbe1",
+        date: "Feb 2021 - May 2021 ",
+        points: [
+            "Learnt the importance of being a support service in a business.",
+            "Group project",
+        ],
+    },
+    {
+        title: "Network Admin",
+        company_name: "Rosebank College",
+        icon: rosebank,
+        iconBg: "#accbe1",
+        date: "July 2021 - Nov 2021 ",
+        points: [
+            "Learnt able networking and got to assemble a RJ45 (ethernet cable) and how does it work",
+            
+        ],
+    },
+    {
         title: "React.js Developer",
         company_name: "University of Johannesburg",
         icon: uj,
@@ -110,7 +132,7 @@ export const experiences = [
         company_name: "University of Johannesburg",
         icon: uj,
         iconBg: "#fbc3bc",
-        date: "Aug 2023 - Nov 2022",
+        date: "Aug 2023 - Nov 2023",
         points: [
             "Developing and maintaining mobile applications using React Native.",
             "Built an application for a group project.",
