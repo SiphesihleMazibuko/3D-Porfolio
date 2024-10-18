@@ -32,6 +32,7 @@ import csharp from './csharp.svg'
 import python from './python.svg'
 import firebase from './firebase.svg'
 import sql from './sql.svg'
+import eaglesring from './eaglesring.svg'
 
 export {
     firebase,
@@ -67,5 +68,6 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    eaglesring
 }

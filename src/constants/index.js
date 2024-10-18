@@ -18,6 +18,7 @@ import {
     firebase,
     mongodb,
     nextjs,
+    eaglesring,
 } from "../assets/icons";
 
 export const skills = [
@@ -109,7 +110,7 @@ export const experiences = [
         title: "Network Admin",
         company_name: "Rosebank College",
         icon: rosebank,
-        iconBg: "#accbe1",
+        iconBg: "#fbc3bc",
         date: "July 2021 - Nov 2021 ",
         points: [
             "Learnt able networking and got to assemble a RJ45 (ethernet cable) and how does it work",
@@ -120,7 +121,7 @@ export const experiences = [
         title: "React.js Developer",
         company_name: "University of Johannesburg",
         icon: uj,
-        iconBg: "#accbe1",
+        iconBg: "#b7e4c7",
         date: "July 2023 - Aug 2023 ",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
@@ -131,7 +132,7 @@ export const experiences = [
         title: "React Native Developer",
         company_name: "University of Johannesburg",
         icon: uj,
-        iconBg: "#fbc3bc",
+        iconBg: "#accbe1",
         date: "Aug 2023 - Nov 2023",
         points: [
             "Developing and maintaining mobile applications using React Native.",
@@ -142,12 +143,24 @@ export const experiences = [
         title: "Web Developer",
         company_name: "University of Johannesburg",
         icon: uj,
-        iconBg: "#b7e4c7",
+        iconBg: "#fbc3bc",
         date: "Feb 2023 - May 2023",
         points: [
             "Developing and maintaining web applications using HTML, CSS and PHP.",
             "Built a group project where we implemented all the technologies I was responsible for the backend.",
         ],
+    },
+    {
+        title: "Web app Developer ",
+        company_name:"University of Johannesburg",
+        iconBg: "#b7e4c7",
+        icon:uj,
+        date: "Feb 2024 - October 2024",
+        points:[
+            "Worked on a year project using Nextjs which is a framework for React.",
+            "Built a group project where I was a full stack developer but mainly focused on the backend."
+        ]
+
     },
  
 ];
@@ -191,6 +204,12 @@ export const projects = [
         name: 'EcoTracker',
         description: 'A mobile application we created for our semester project with my group to give people knowledge on how to keep our environment safe.',
         link: 'https://github.com/SiphesihleMazibuko/Eco-Tracker2.0',
+    },
+    {
+        iconUrl: eaglesring,
+        theme: 'btn-back-red',
+        description: 'A platform for guide entrepreneurs on how to pitch their ideas, and also post their pitches for potential investors globally. By doing this investors will get the best pitch and will be able to invest in the project through the platform',
+        link: 'https://eagles-ring2-0.vercel.app/',
     },
     
 ];
