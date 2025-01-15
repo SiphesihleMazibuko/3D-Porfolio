@@ -43,7 +43,7 @@ const About = () => {
       <div className="py-16">
         <h3 className="subhead-text">Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
-          <p>Although I have little professional experience, I have gained significant hands-on experience through various school projects. These projects allowed me to develop key skills in areas like software development, problem-solving, and teamwork. I was also responsible for presenting my work to live audiences, which honed my ability to communicate complex technical concepts effectively. This experience has provided me with a solid foundation in working with various technologies and collaborating with teams to deliver solutions. </p>
+          <p>With my experience as a technician, I have built on the foundation of hands-on experience gained through various school projects. These projects helped me develop key skills in software development, problem-solving, and teamwork. In my current role, I have expanded these abilities by working with real-world technologies, troubleshooting issues, and collaborating with teams to deliver effective solutions. Additionally, my responsibility for presenting my work to live audiences during my studies has been further refined in my professional role, enabling me to communicate complex technical concepts clearly and effectively. This combination of academic and professional experience has equipped me to adapt quickly and contribute meaningfully to technical projects.</p>
           <div className="mt-12 flex">
             <VerticalTimeline>
               {experiences.map((experience) => (
