@@ -103,7 +103,7 @@ export const experiences = [
         date: "Nov 2024 - Current",
         points:[
             "As a technician, I manage and resolve device issues using the Zoho ticketing system, addressing hardware and software issues",
-            "I congure devices to customer specications, using tools like NetiraCT, PrintSet5, and SOTI for printer and device setup."
+            "I configure devices to customer specications, using tools like NetiraCT, PrintSet5, and SOTI for printer and device setup."
 
         ]
     },
