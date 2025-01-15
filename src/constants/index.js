@@ -220,7 +220,7 @@ export const projects = [
     {
         iconUrl: eaglesring,
         theme: 'btn-back-red',
-        nameL: 'EaglesRing',
+        name: 'EaglesRing',
         description: 'A platform for guide entrepreneurs on how to pitch their ideas, and also post their pitches for potential investors globally. By doing this investors will get the best pitch and will be able to invest in the project through the platform. I was responsible for both front and backend development using NextJs for frontend and MongoDB for the backend',
         link: 'https://eagles-ring2-0.vercel.app/',
     },
